@@ -4,11 +4,11 @@ system:
 environment:
   'DOCKER_APP': 'solano'
   'DEPLOY_AWS_ECS': 'true'
-  'AWS_ECS_CLUSTER': 'solano-ecs-cluster'
+  'AWS_ECS_CLUSTER': 'prod-ecs-ECSCluster-1JFXBNB8QGUJG'
   'AWS_ECS_SERVICE': 'solano-ecs-service'
   'AWS_ECS_TASK_DEFINITION': 'solano-family'
   'AWS_ECS_TASK_NAME': 'solano-task-definition'
-  'AWS_ELB_NAME': 'solano-elb'
+  'AWS_ELB_NAME': 'Prod-Bova-ELB'
   # For sensitive values, use `solano config:add repo <key> <value>` from the cli
   # See: http://docs.solanolabs.com/Setup/setting-environment-variables/#via-config-variables
   # 'DOCKER_USER': '<set-with-cli>'
